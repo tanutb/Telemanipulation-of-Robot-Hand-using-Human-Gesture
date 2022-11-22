@@ -15,8 +15,8 @@ x2_1,y2_1 = 0,0
 def Command_Selection(data):
     Command,lm8_2,lm8_1,lm4_2,lm4_1 = data
     if Command=="Start":
-            x = -(((lm8_2/6400)*3)+0.2)
-            y = -(((lm8_1/4800)*4)-0.2)
+            x = -(((lm8_2/4800)*3)+0.2)
+            y = -(((lm8_1/6400)*4)-0.2)
             UR_Rb.moveUR(x,y)
             # print("UR_Rb.moveUR(x,y)")
 
