@@ -1,4 +1,5 @@
 # Telemanipulation of Robot Hand using Human Gesture
+**Need to setup IP first**
 Use **URSever.py** for Sever and control UR <br>
 Use **URClient.py** for Hand Tracking and send data to Sever
 
